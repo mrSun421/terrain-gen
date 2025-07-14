@@ -1,0 +1,15 @@
+[package]
+name = "terrain-gen"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+bytemuck = { version = "1.23.1", features = ["derive"] }
+cgmath = { version = "0.18.0", features = ["swizzle"] }
+env_logger = "0.11.8"
+image = "0.25.6"
+log = "0.4.27"
+pollster = "0.4.0"
+wgpu = "26.0.1"
+winit = "0.30.11"
